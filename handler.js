@@ -955,7 +955,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
                 if (!('delete' in chat))
                     chat.delete = true                    
                 if (!('modohorny' in chat)) chat.modohorny = false                    
-                if (!('stickers' in chat)) chat.stickers = true                    
+                if (!('stickers' in chat)) chat.stickers = false                    
                 if (!('autosticker' in chat)) chat.autosticker = false                      
                 if (!('audios' in chat)) chat.audios = true                     
 		if (!('antiver' in chat)) chat.antiver = true                    
@@ -1018,7 +1018,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
 		if (!('autoread2' in settings)) settings.autoread2 = false
                 if (!('restrict' in settings)) settings.restrict = false
 		if (!('temporal' in settings)) settings.temporal = true
-                if (!('antiPrivate' in settings)) settings.antiPrivate = false
+                if (!('antiPrivate' in settings)) settings.antiPrivate = true
 		if (!('antiCall' in settings)) settings.antiCall = true
 		if (!('antiSpam' in settings)) settings.antiSpam = true
 		if (!('jadibotmd' in settings)) settings.jadibotmd = true  
@@ -1192,9 +1192,9 @@ if (m.text && user.banned && !isROwner) {
 *👉 Puedes contactar a la propietaria del Bot si crees que se trata de un error (TENER PRUEBAS) para tratar el motivo de tú desbaneo*
 
 👉 ${global.asistencia}
-👉 wa.me/56954390663
-👉 wa.me/51955095498
-👉 Wa.me/51933348947
+👉 wa.me/59897463355
+👉 wa.me/59897463355
+👉 Wa.me/59897463355
 👉 ${global.ig}
 `.trim();
     
