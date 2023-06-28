@@ -12,7 +12,7 @@ import { en, es, id, ar, pt, fr } from './lib/idiomas/total-idiomas.js'
 //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
 
 global.owner = [
-  ['56954390663', 'GeriPium', true],  
+  ['59897463355', 'ZeroBot', true],  
   ['51955095498', 'Jair Owner', true],
   ['51933348947', 'Jair Owner 2', true],
   ['56954390663', 'GeriPium', true],
@@ -113,8 +113,8 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = 'GeriPium'
-global.author = 'GeriPium'
+global.packname = 'ZeroBot'
+global.author = 'ZeroBot'
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
@@ -122,11 +122,11 @@ global.vs = '1.4.9'
 global.vsJB = '2.0'
 
 global.gt = 'GeriPium'
-global.yt = 'https://www.instagram.com/venta.bots.gerixryu'
-global.yt2 = 'https://www.instagram.com/venta.bots.gerixryu'
-global.ig = 'https://www.instagram.com/venta.bots.gerixryu'
-global.md = 'https://www.instagram.com/venta.bots.gerixryu'
-global.fb = 'https://www.instagram.com/venta.bots.gerixryu'
+global.yt = 'https://www.instagram.com/ventas_bot.thezero'
+global.yt2 = 'https://www.instagram.com/ventas_bot.thezero'
+global.ig = 'https://www.instagram.com/ventas_bot.thezero'
+global.md = 'https://www.instagram.com/ventas_bot.thezero'
+global.fb = 'https://www.instagram.com/ventas_bot.thezero'
 
 global.nna = 'https://chat.whatsapp.com/FNtD1vGHoFrHdD0tZPJdSt' //UPDATE GATABOT
 global.nna2 = 'https://chat.whatsapp.com/FNtD1vGHoFrHdD0tZPJdSt' //Help
@@ -174,8 +174,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = 'GeriPium'
-global.igfg = '@venta.bots.gerixryu'
+global.wm = 'ZeroBot'
+global.igfg = '@ventas_bot.thezero'
 global.wait = '*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*'
 global.waitt = '*⌛ _Cargando | Charging..._ ▬▬▭▭▭*'
 global.waittt = '*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*'
