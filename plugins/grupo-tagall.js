@@ -6,7 +6,7 @@ throw false
 let vn = './media/Invocar.mp3'
 let pesan = args.join` `
 let oi = `*@ventas_bot.thezero* ${pesan}`
-let teks = `*QUE ESPERAN PARA PARTICIPAR, UNA CARTA DE INVITACIÓN?*\n\n ${oi}\n\n🫶🏻 ➢ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
+let teks = `*𝗔𝗡𝗢𝗧𝗘𝗡𝗦𝗘 𝗡𝗘𝗚𝗥𝗫𝗦 𝗣𝗔𝗥𝗧𝗜𝗖𝗜𝗣𝗘𝗡 𝗖𝗔𝗥𝗔𝗝𝗢😡‼️*\n\n ${oi}\n\n🫶🏻 ➢ 𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂\n`
 for (let mem of participants) {
 teks += `🛍️❖≽  @${mem.id.split('@')[0]}\n`}
 teks += `*🐾ZeroBot*\n\n*😼♥️*`
