@@ -12,7 +12,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 
 //------- Nombre
   let nowner = `${wm.split`@`[0]}@s.whatsapp.net`
-  let insta = `https://www.instagram.com/venta.bots.gerixryu`
+  let insta = `https://www.instagram.com/ventas_bot.TheZero`
   let teksnomor = `
 • @${wm.split`@`[0]} •
 ------- ${wm} -------
@@ -20,17 +20,17 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
-let teksbio = `GeriPium
-*Wa.me/56954390663*
+let teksbio = `TheZero
+*Wa.me/59897463355*
 
-Jair Owner 1	
-*wa.me/51955095498*
+Zero Owner 1	
+*Wa.me/59897463355*
 
-Jair Owner 2
-*wa.me/51933348947*
+Zero Owner 2
+*Wa.me/59897463355*
 *---------------------*
 
-GERIPIUM CONTACTO
+THEZERO CONTACTO
 *${asistencia}*`
   let teks = ' '
 const sections = [
