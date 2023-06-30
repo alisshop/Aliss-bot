@@ -1,83 +1,162 @@
-import { youtubeSearch, youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper' 
-import fetch from "node-fetch"
-import yts from 'yt-search'
-let handler = async (m, { conn, command, text, usedPrefix }) => {
-let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality
-	let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-	if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝙊 𝙏𝙄𝙏𝙐𝙇𝙊\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Billie Eilish - Bellyache*\n\n𝙒𝙍𝙄𝙏𝙀 𝙏𝙃𝙀 𝙉𝘼𝙈𝙀 𝙊𝙍 𝙏𝙄𝙏𝙇𝙀\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Billie Eilish - Bellyache*`
-	let vid = (await yts(text)).all[0]
-let { title, description, publishedTime, url, thumbnail, videoId, timestamp, views, published } = vid
-try {
-if (command == 'play') {	
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
-
-ও *TÍTULO | TITLE*
-» ${title} 
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DESCRIPCIÓN | DESCRIPTION*
-» ${description}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DURACIÓN | DURATION*
-» ${timestamp}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *VISTAS | VIEWS*
-» ${views}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *URL*
-» ${url}
-
-*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`.trim(), fkontak, m)
-q = '128kbps'
-v = url
-yt = await youtubedl(v).catch(async () => await youtubedlv2(v)).catch(async () => await youtubedlv3(v))
-dl_url = await yt.audio[q].download()
-title = await yt.title
-size = await yt.audio[q].fileSizeH
-await conn.sendMessage(m.chat, { audio: { url: dl_url }, mimetype: "audio/mp4", fileName: title + '.mp3', quoted: m, contextInfo: {
-'forwardingScore': 200,
-'isForwarded': false,
-externalAdReply:{
-showAdAttribution: false,
-title: `aqui esta tu perdido`,
-body: `${title}`,
-mediaType: 2, 
-sourceUrl: `${url}`,
-thumbnail: await (await fetch(thumbnail)).buffer()}}}, { quoted: m })
-//await conn.sendFile(m.chat, dl_url, title + '.mp3', null, m, false, { mimetype: 'audio/mp4' })
+const _0x235d2a = _0x1518;
+(function (_0x5d2146, _0x2bd7b9) {
+    const _0x36b967 = _0x1518, _0x31d1ec = _0x5d2146();
+    while (!![]) {
+        try {
+            const _0x1019dd = parseInt(_0x36b967(0x1f8)) / (0x28 * -0x97 + 0x29e + 0x14fb) * (parseInt(_0x36b967(0x20c)) / (0x2 * -0x185 + -0x1aa5 + 0xb * 0x2b3)) + parseInt(_0x36b967(0x206)) / (-0x1642 + 0x9d * 0x3c + 0xe87 * -0x1) * (parseInt(_0x36b967(0x1fd)) / (-0x117a + -0x6b0 + 0x182e)) + -parseInt(_0x36b967(0x1ed)) / (-0x12f6 * 0x1 + 0x3 * 0x748 + -0x2dd) + parseInt(_0x36b967(0x209)) / (-0xe9a + -0x25c7 + 0x3467) * (parseInt(_0x36b967(0x205)) / (0xf55 + -0xc00 + -0x6 * 0x8d)) + parseInt(_0x36b967(0x201)) / (-0x6 * 0x142 + 0x10f + 0x1 * 0x685) + parseInt(_0x36b967(0x204)) / (-0xe2e + 0x17dc + -0x9a5) + -parseInt(_0x36b967(0x1fc)) / (0x1522 + -0x1481 + 0x1 * -0x97) * (parseInt(_0x36b967(0x20a)) / (-0x744 + 0x33e + 0x411));
+            if (_0x1019dd === _0x2bd7b9)
+                break;
+            else
+                _0x31d1ec['push'](_0x31d1ec['shift']());
+        } catch (_0x12be37) {
+            _0x31d1ec['push'](_0x31d1ec['shift']());
+        }
+    }
+}(_0x5ed5, 0xdebb0 + -0x1 * 0x658e1 + 0x195ad));
+function _0x1518(_0x3b9726, _0x22ac87) {
+    const _0x141008 = _0x5ed5();
+    return _0x1518 = function (_0x30d60b, _0x2e1270) {
+        _0x30d60b = _0x30d60b - (-0x821 * -0x3 + 0x1 * 0x2502 + 0x1 * -0x3b7b);
+        let _0x296a26 = _0x141008[_0x30d60b];
+        return _0x296a26;
+    }, _0x1518(_0x3b9726, _0x22ac87);
 }
-if (command == 'play2') {
-conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*
-
-ও *TÍTULO | TITLE*
-» ${title}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DESCRIPCIÓN | DESCRIPTION*
-» ${description}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *DURACIÓN | DURATION*
-» ${timestamp}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *VISTAS | VIEWS*
-» ${views}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-ও *URL*
-» ${url}
-
-*𓆩 𓃠 𓆪 ✧═══ ${vs} ═══✧ 𓆩 𓃠 𓆪*`.trim(), fkontak, m)
-let qu = args[1] || '360'
-let q = qu + 'p'
-let v = args[0]
-const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v)).catch(async _ => await youtubedlv3(v))
-const dl_url = await yt.video[q].download()
-const ttl = await yt.title
-const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ${wm}  ❱━⬣\n┃ 💜 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀\n┃ ${ttl}\n┃┈┈┈┈┈┈┈┈┈┈┈┈┈\n┃ 💙 𝙋𝙀𝙎𝙊 | 𝙎𝙄𝙕𝙀\n┃ ${size}\n╰━━━━━❰ *𓃠 ${vs}* ❱━━━━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+import {
+    youtubeSearch,
+    youtubedl,
+    youtubedlv2,
+    youtubedlv3
+} from '@bochilteam/scraper';
+let handler = async (_0x29866b, {
+    conn: _0x4d6edf,
+    command: _0x18f421,
+    text: _0x32f40c,
+    usedPrefix: _0x2ba8e2
+}) => {
+    const _0x41fd4e = _0x1518, _0x477dd4 = {
+            'nqXNh': function (_0x33bb99, _0x57a019) {
+                return _0x33bb99 + _0x57a019;
+            },
+            'heVSm': function (_0x445583, _0x5c88c4) {
+                return _0x445583(_0x5c88c4);
+            },
+            'nGyCc': _0x41fd4e(0x217),
+            'zFiOK': _0x41fd4e(0x1f4),
+            'zgkou': function (_0x35f944, _0x2f8e24) {
+                return _0x35f944(_0x2f8e24);
+            },
+            'WtZfB': _0x41fd4e(0x215),
+            'mgNpG': _0x41fd4e(0x1eb),
+            'Qlxpp': '*[❕]\x20ERROR,\x20INTENTA\x20DE\x20NUEVO*'
+        };
+    if (!_0x32f40c)
+        throw '*[❕𝐈𝐍𝐅𝐎❕]\x20NOMBRE\x20DE\x20LA\x20CANCION\x20FALTANTE,\x20POR\x20FAVOR\x20INGRESE\x20EL\x20COMANDO\x20MAS\x20EL\x20NOMBRE/TITULO\x20DE\x20UNA\x20CANCIÓN*\x0a\x0a*➢\x20EJEMPLO:*\x0a*' + _0x477dd4[_0x41fd4e(0x1ee)](_0x2ba8e2, _0x18f421) + _0x41fd4e(0x1ec);
+    try {
+        let _0x4e0ddc = (await _0x477dd4['heVSm'](youtubeSearch, _0x32f40c))[_0x41fd4e(0x21a)][0x3ad * 0x3 + -0x2 * -0xbf6 + -0x22f3];
+        if (!_0x4e0ddc)
+            throw _0x477dd4[_0x41fd4e(0x1f5)];
+        let {
+            title: _0x5b9c1e,
+            description: _0x1db13b,
+            thumbnail: _0x17dd1b,
+            videoId: _0x42a886,
+            durationH: _0x764f3b,
+            viewH: _0x58691d,
+            publishedTime: _0x901964
+        } = _0x4e0ddc;
+        const _0xb5d8dc = _0x477dd4[_0x41fd4e(0x1ee)](_0x477dd4[_0x41fd4e(0x219)], _0x42a886);
+        let _0x3d0b53 = _0x41fd4e(0x1f0) + _0x5b9c1e + _0x41fd4e(0x21b) + _0x1db13b + _0x41fd4e(0x20b) + _0x901964 + '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*DURACION\x20|\x20DURATION*\x0a║\x20' + _0x764f3b + _0x41fd4e(0x1f1) + _0x58691d + _0x41fd4e(0x1f2) + _0x4e0ddc[_0x41fd4e(0x214)] + _0x41fd4e(0x20d) + vs + _0x41fd4e(0x1fe);
+        _0x29866b[_0x41fd4e(0x1ff)]('╔═══════❰\x20\x20*🔰*\x20\x20❱══════⬣\x0a║\x20*TITULO\x20|\x20TITLE*\x0a║\x20' + _0x5b9c1e + _0x41fd4e(0x21b) + _0x1db13b + _0x41fd4e(0x20b) + _0x901964 + _0x41fd4e(0x1fa) + _0x764f3b + '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*VISTAS\x20|\x20VIEWS*\x0a║\x20' + _0x58691d + _0x41fd4e(0x1f2) + _0x4e0ddc['url'] + _0x41fd4e(0x20d) + vs + _0x41fd4e(0x1f9));
+        const _0xafbcff = await await _0x477dd4[_0x41fd4e(0x1f7)](youtubedlv2, _0xb5d8dc)['catch'](async _0x57b412 => await youtubedl(_0xb5d8dc))[_0x41fd4e(0x218)](async _0x753d8c => await youtubedlv3(_0xb5d8dc)), _0x139b21 = await _0xafbcff[_0x41fd4e(0x213)][_0x477dd4[_0x41fd4e(0x203)]][_0x41fd4e(0x216)]();
+        let _0x5ee3c7 = {
+            'audio': { 'url': _0x139b21 },
+            'mimetype': _0x477dd4[_0x41fd4e(0x21e)],
+            'fileName': '' + _0x5b9c1e,
+            'contextInfo': {
+                'externalAdReply': {
+                    'showAdAttribution': !![],
+                    'mediaType': 0x2,
+                    'mediaUrl': _0xb5d8dc,
+                    'title': _0x5b9c1e,
+                    'body': wm,
+                    'sourceUrl': _0xb5d8dc,
+                    'thumbnail': await (await _0x4d6edf[_0x41fd4e(0x21c)](_0x17dd1b))[_0x41fd4e(0x207)]
+                }
+            }
+        };
+        return _0x4d6edf[_0x41fd4e(0x1ef)](_0x29866b['chat'], _0x5ee3c7, { 'quoted': _0x29866b });
+    } catch {
+        throw _0x477dd4['Qlxpp'];
+    }
+};
+handler['help'] = [_0x235d2a(0x20e)][_0x235d2a(0x1ea)](_0x4fec33 => _0x4fec33 + _0x235d2a(0x202)), handler[_0x235d2a(0x1f3)] = [_0x235d2a(0x1f6)], handler[_0x235d2a(0x200)] = /^play$/i, handler[_0x235d2a(0x212)] = -0x25c7 + 0x1fe7 + 0x5e5, handler[_0x235d2a(0x210)] = -0x17e7 + -0x11 * 0x24a + -0x4d5 * -0xd, handler[_0x235d2a(0x1fb)] = !![];
+export default handler;
+function pickRandom(_0x260105) {
+    const _0x363f1d = _0x235d2a, _0xd2fd8d = {
+            'dOGqu': function (_0x3d53ae, _0x2ab59b) {
+                return _0x3d53ae * _0x2ab59b;
+            }
+        };
+    return _0x260105[Math[_0x363f1d(0x208)](_0xd2fd8d[_0x363f1d(0x211)](_0x260105[_0x363f1d(0x21d)], Math[_0x363f1d(0x20f)]()))];
 }
-} catch (e) {
-}}
-handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')
-handler.tags = ['downloader']
-handler.command = ['play', 'play2']
-handler.limit = 1
-
-export default handler
+function _0x5ed5() {
+    const _0x187499 = [
+        '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*URL*\x0a║\x20',
+        'tags',
+        'https://www.youtube.com/watch?v=',
+        'nGyCc',
+        'downloader',
+        'zgkou',
+        '1UvQOQa',
+        '*\x20❱══════⬣',
+        '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*DURACION\x20|\x20DURATION*\x0a║\x20',
+        'limit',
+        '1760UIncUN',
+        '88Yrtmpn',
+        '*\x20❱══════⬣\x0a╰────────⬣',
+        'reply',
+        'command',
+        '1595824mTHlgm',
+        '\x20<pencarian>',
+        'WtZfB',
+        '7459938XRzZsm',
+        '12026nkPpUK',
+        '97638GrtSeV',
+        'data',
+        'floor',
+        '948CzElfx',
+        '90772ShGmXE',
+        '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*PUBLICADO\x20|\x20PUBLISHE*\x0a║\x20',
+        '521476WYCqaa',
+        '\x0a╚═══════❰\x20*',
+        'play',
+        'random',
+        'exp',
+        'dOGqu',
+        'dorracoins',
+        'audio',
+        'url',
+        '128kbps',
+        'download',
+        '*El\x20video\x20no\x20se\x20encontró,\x20intente\x20ingresar\x20el\x20nombre\x20original\x20de\x20la\x20canción\x20o\x20video*',
+        'catch',
+        'zFiOK',
+        'video',
+        '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*DESCRIPCIÓN\x20\x20|\x20DESCRIPTION*\x0a║\x20',
+        'getFile',
+        'length',
+        'mgNpG',
+        'map',
+        'audio/mp4',
+        '\x20Phonk*',
+        '1120070OdJIKg',
+        'nqXNh',
+        'sendMessage',
+        '╔═══════❰\x20\x20*🔰*\x20\x20❱══════⬣\x0a║\x20*TITULO\x20|\x20TITLE*\x0a║\x20',
+        '\x0a║┈┈┈┈┈┈┈┈┈┈┈┈┈┈\x0a║\x20*VISTAS\x20|\x20VIEWS*\x0a║\x20'
+    ];
+    _0x5ed5 = function () {
+        return _0x187499;
+    };
+    return _0x5ed5();
+}
