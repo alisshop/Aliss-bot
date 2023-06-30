@@ -102,13 +102,13 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
 *╭━〔 INFORMACIÓN DE THEZEROBOT 〕⬣*
-┃💫➺ _${usedPrefix}gruposgb | grupos | groupgb_
-┃💫➺ _${usedPrefix}donar | donate_
-┃💫➺ _${usedPrefix}listagrupos | grouplist_
-┃💫➺ _${usedPrefix}estado | status_
-┃💫➺ _${usedPrefix}infobot_
+┃💫➺ _${usedPrefix}creador | zeroprecios | zeroinfo_
+┃💫➺ _${usedPrefix}creador | Zero_
+┃💫➺ _${usedPrefix}precios del bot | zeroprecios_
+┃💫➺ _${usedPrefix}info del bot | zeroinfo_
+┃💫➺ _${usedPrefix}gruposofc_
 ┃💫➺ _${usedPrefix}instalarbot | installbot_
-┃💫➺ _${usedPrefix}creadora | owner_
+┃💫➺ _${usedPrefix}owner | owner_
 ┃💫➺ _${usedPrefix}velocidad | ping_
 ┃💫➺ _Bot_ 
 ┃💫➺ _términos y condiciones_
