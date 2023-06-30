@@ -10,7 +10,7 @@ for (let mem of participants) {
 teks += `@${mem.id.split('@')[0]}🍃`}
 teks += `ㅤ
 │
-│         💗 ZERO,BOT SIMPLE Y SIN BOTONES CREADOR:💗
+│         💗 ZERO, BOT SIMPLE CREADOR:http://wa.me/59897463355 💗
 │        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
 │      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
