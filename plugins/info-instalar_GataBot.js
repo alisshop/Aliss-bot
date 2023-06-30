@@ -15,7 +15,7 @@ const fkontak = {
 }
 
 let picture = './media/menus/Menu1.jpg'
-let gata = `NO SEAS ESTA Y COMPRA EL BOT PARA VER INFORMACIÓN O PRECIOS DEL BOT PONER .Zeroprecios
+let gata = `NO SEAS RATA HERMANX COMPRA EL BOT PARA VER INFORMACIÓN O PRECIOS DEL BOT ESCRIBIR .precios o .zeroinfo
 Wa.me/59897463355`
 await conn.sendFile(m.chat, picture, 'gata.mp4', gata, fkontak)}
 /*conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
