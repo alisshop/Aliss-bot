@@ -36,12 +36,12 @@ let str = `╭「PRECIOS DE THEZEROBOT」
 ╰───────────────╯
 🛍️᭢━━━━━━━━━᭥🛍️᭢
 ╭「𝐏𝐑𝐄𝐂𝐈𝐎𝐒 𝐃𝐄 𝐁𝐎𝐓𝐂𝐈𝐓𝐎𝐒 𝐏𝐀𝐑𝐀 𝐆𝐑𝐔𝐏𝐎𝐒」
-│💌BOT MENSUAL : 🇵🇪10 Yape🇨🇱 3000 Ctu Rut🇦🇷1000 Cbu🇧🇴Tigo 20🇲🇽70 MX 🇨🇴13000💎 300
-│💌BOT TRIMESTRAL : 🇵🇪15 Yape 🇦🇷 1500 CBU 🇨🇱 4500 Ctu Rut 🇧🇴Tigo 36  💎 500
-│💌BOT PERMANENTE : 🇵🇪20 Yape🇨🇱6000 Ctu Rut 🇦🇷2000 Cbu🇧🇴Tigo 39🇲🇽150 MX🇨🇴26000💎700
-│💌BOT PERMANENTE PLUS :🇵🇪25 Yape🇨🇱7000 Ctu Rut 🇦🇷2500 Cbu🇧🇴Tigo 50🇲🇽1800 MX🇨🇴35000💎800
+│💌BOT MENSUAL : 🇵🇪4 Yape/🇦🇷500 Cbu/🇲🇽40 MX/💎100
+│💌BOT TRIMESTRAL : 🇵🇪15 Yape/🇦🇷 1300 CBU/🇲🇽70 MX💎400
+│💌BOT PERMANENTE : 🇵🇪8 Yape/🇦🇷1000 Cbu/🇲🇽60 MX/💎200
+│💌HACER NÚMERO BOT :🇵🇪12 Yape/🇦🇷1300 Cbu/🇲🇽75 MX💎50
 ╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
+🛍️᭢━━━━━━━━━᭥🛍️᭢
 ╭「𝐀𝐂𝐋𝐀𝐑𝐀𝐂𝐈𝐎𝐍𝐄𝐒」
 │🤖NO HAGO VIDA SOCIAL AL PRIVD
 │🤖NO HAGO REMBOLSOS SI NO ESTAS SEGUR@ DE COMPRAR ALGO NO LO HAGAS
