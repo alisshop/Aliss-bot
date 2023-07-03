@@ -46,7 +46,7 @@ if (command == 'play') {
     contextInfo: {
     externalAdReply: {
     title: "",
-    body: "GataBot-MD",
+    body: "TheZero-Bot",
     thumbnailUrl: tmb ,
     sourceUrl: web,
     mediaType: 1,
