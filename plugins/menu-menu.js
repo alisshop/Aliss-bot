@@ -104,10 +104,10 @@ ${readMore}
 *╭━〔 INFORMACIÓN DE THEZEROBOT 〕⬣*
 ┃💫➺ _${usedPrefix}creador | zeroprecios | zeroinfo_
 ┃💫➺ _${usedPrefix}creador | Zero_
-┃💫➺ _${usedPrefix}precios del bot | zeroprecios_
-┃💫➺ _${usedPrefix}info del bot | zeroinfo_
-┃💫➺ _${usedPrefix}gruposofc_
-┃💫➺ _${usedPrefix}instalarbot | installbot_
+┃💫➺ _${usedPrefix}numero de mi creador | wa.me/59897463355_
+┃💫➺ _${usedPrefix}para comprar el bot | wa.me/59897463355_
+┃💫➺ _${usedPrefix}para ver precios del bot | precios_
+┃💫➺ _${usedPrefix}para ver información del bot| zeroinfo_
 ┃💫➺ _${usedPrefix}owner | owner_
 ┃💫➺ _${usedPrefix}velocidad | ping_
 ┃💫➺ _Bot_ 
