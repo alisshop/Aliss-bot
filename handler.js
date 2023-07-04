@@ -988,7 +988,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
                     sDemote: '', 
                     delete: true,
                     modohorny: true,
-                    stickers: true,
+                    stickers: false,
                     autosticker: false,
                     audios: true,
 		    antiver: true,
