@@ -98,20 +98,20 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *ZeroCoins ➟* ${money} 🐈
+⊜ *ZeroCoins ➟* ${money} 🛍️
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
 *╭━〔 INFORMACIÓN DE THEZEROBOT 〕⬣*
-┃💫➺ _${usedPrefix}creador | zeroprecios | zeroinfo_
-┃💫➺ _${usedPrefix}creador | Zero_
-┃💫➺ _${usedPrefix}numero de mi creador | wa.me/59897463355_
-┃💫➺ _${usedPrefix}para comprar el bot | wa.me/59897463355_
-┃💫➺ _${usedPrefix}para ver precios del bot | precios_
-┃💫➺ _${usedPrefix}para ver información del bot| zeroinfo_
-┃💫➺ _${usedPrefix}owner | owner_
-┃💫➺ _${usedPrefix}velocidad | ping_
-┃💫➺ _Bot_ 
-┃💫➺ _términos y condiciones_
+┃💫➺ ${usedPrefix}creador ➺ zeroprecios ➺ zeroinfo
+┃💫➺ ${usedPrefix}creador ➺ Zero
+┃💫➺ ${usedPrefix}numero de mi creador ➺ wa.me/59897463355
+┃💫➺ ${usedPrefix}para comprar el bot ➺ wa.me/59897463355
+┃💫➺ ${usedPrefix}para ver precios del bot ➺ precios
+┃💫➺ ${usedPrefix}para ver información del bot ➺ zeroinfo
+┃💫➺ ${usedPrefix}owner | owner
+┃💫➺ ${usedPrefix}velocidad | ping
+┃💫➺ Bot_ 
+┃💫➺ términos y condiciones
 *╰━━━━━━━━━━━━⬣*
 
 *╭━〔 FUNCIÓN SUB BOT 〕━⬣*
