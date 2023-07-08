@@ -7,6 +7,6 @@ contextInfo: {
 mentionedJid: m.mentionedJid }} : {})}
 handler.help = ['cachudo *@user*']
 handler.tags = ['game']
-handler.command = /^(puto)/i
+handler.command = /^(cachudo)/i
 handler.fail = null
 module.exports = handler
