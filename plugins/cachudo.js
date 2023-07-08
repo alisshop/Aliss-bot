@@ -5,7 +5,7 @@ _*${text}* *es* *${Math.floor(Math.random() * 2000)}%* *${command.replace('how',
 `.trim(), m, m.mentionedJid ? {
 contextInfo: {
 mentionedJid: m.mentionedJid }} : {})}
-handler.help = ['puta *@user*']
+handler.help = ['cachudx *@user*']
 handler.tags = ['game']
 handler.command = /^(cachudo)/i
 handler.fail = null
