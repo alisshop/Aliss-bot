@@ -81,14 +81,14 @@ let menu = `⌜ *${wm}* ⌟
 *Hola ${taguser}*
 
 □ *Creador: TheZero*
-□ *Numero del creador: wa.me/51994156047*
-□ *Numero del bot ofc: wa.me/51994156047*
+□ *Numero del creador: wa.me/59897463355*
+□ *Numero de la Creadora2: wa.me/51967647592*
 □ *Tiempos activos :* *${uptime}*
 □ *Usuarios:* *${Object.keys(global.db.data.users).length}*
 □ *Registrado: ${rtotalreg} de ${totalreg}* ${(conn.user.jid == global.conn.user.jid ? '' : `\n□ *Soy un sub bot del:* wa.me/${global.conn.user.jid.split`@`[0]}`) || ''}
     
-□ *COMO INSTALAR EL BOT*
-https://youtu.be/O_j2q5xCg3A
+□ *PARA COMPRAR EL BOT*
+.precios
 
 ◉ _*INFO DEL USUARIO*_
 □ *🙌 Registrado:* ${user.registered === true ? '✅' : '❌ _#verificar_'}
@@ -96,7 +96,7 @@ https://youtu.be/O_j2q5xCg3A
 □ *🔰 Mi estado:* ${typeof user.miestado !== 'string' ? '_#miestado || Estado no asignado_' : '_Me siento ' + user.miestado + '_'}
 □ *🎖️ Nivel:* ${level}
 □ *💎 Diamantes:* ${limit}
-□ *👾 LoliCoins:* ${money}
+□ *👾 ZeroCoins:* ${money}
 □ *🪙 Tokens:* ${joincount}
 □ *🧰 Experiencia:* ${exp}
 □ *⚓ Rango:* ${role}
@@ -591,7 +591,7 @@ console.log(e)
 }}
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu2|menú|menucompleto|allmenu|allm\?)$/i
+handler.command = /^(menu|menú|menucompleto|allmenu|allm\?)$/i
 //handler.register = true
 handler.exp = 50
 handler.fail = null
